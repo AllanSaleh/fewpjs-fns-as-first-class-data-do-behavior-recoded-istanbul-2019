@@ -14,7 +14,7 @@ function greet(time){
   let min = parseInt(hrMin[1]);
   if(hr<12){
     return "Good Morning";
-  }else if(hr>12 && min<17){
+  }else if(hr>12 && hr<17){
     return "Good Afternoon";
   }else{
     return "Good Evening";
