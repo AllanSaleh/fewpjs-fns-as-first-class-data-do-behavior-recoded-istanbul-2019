@@ -24,5 +24,5 @@ function greet(time){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(contents){
-  document.getElementById(greeting).content = content;
+  document.getElementById(greeting).content = contents;
 }
