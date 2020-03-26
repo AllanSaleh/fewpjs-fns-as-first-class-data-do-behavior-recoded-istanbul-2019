@@ -23,6 +23,6 @@ function greet(time){
 
 /* Write your implementation of displayMessage() */
 
-function displayMessage(contents){
-  document.getElementById(greeting).innerHTML = contents;
+function displayMessage(content){
+  document.getElementById(greeting).innerHTML = content;
 }
